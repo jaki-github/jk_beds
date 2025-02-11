@@ -1,11 +1,25 @@
 # jk_beds
 
-Bed script to FiveM. In the **Config.lua** you can change the position for the beds coords and the animation that you wanna use when you lying on the bed. 
+This script allows players to interact with beds in FiveM. You can configure the position of the beds and set the animation used when lying down on them through the `config.lua` file.
 
-Need scripts for this to work [ox_lib](https://github.com/overextended/ox_lib/releases) and [ox_target](https://github.com/overextended/ox_target/releases)
-Framework: QBCore, QBOX, ESX and Standalone! 
+### Key Features:
+- Customize bed locations by editing coordinates in `config.lua`.
+- Choose the animation to play when lying down on a bed.
 
-server.cfg: 
+### Configuration:
+- Adjust bed positions and animations in `config.lua`.
+
+### Dependencies:
+- [ox_lib](https://github.com/overextended/ox_lib/releases)
+- [ox_target](https://github.com/overextended/ox_target/releases)
+
+### Supported Frameworks:
+- **QBCore**
+- **QBOX**
+- **ESX**
+- **Standalone**
+
+### Server.cfg
 ```
 ensure ox_lib
 ensure ox_target
